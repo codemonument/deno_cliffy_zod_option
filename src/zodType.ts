@@ -5,7 +5,7 @@ import type {
 import type { z, ZodType, ZodTypeDef } from "zod";
 
 /**
- * This is a factory function to create a custom cliffy type handler for zod schemas.
+ * This is a factory function to create a custom cliffy type handler for validating cli-option values with zod schemas.
  *
  * @param zodSchema the zod schema to validate the param against
  * @returns A TypeOrTypeHandler for cliffy to use as a tpye for Options-definition
