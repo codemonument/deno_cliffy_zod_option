@@ -1,7 +1,7 @@
 import type {
   ArgumentValue,
   TypeOrTypeHandler,
-} from "https://deno.land/x/cliffy@v1.0.0-rc.3/command/mod.ts";
+} from "@codemonument/cliffy/command";
 import type { z, ZodType, ZodTypeDef } from "zod";
 
 /**
