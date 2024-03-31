@@ -16,5 +16,8 @@
 	"imports": {
 		"@codemonument/cliffy": "jsr:@codemonument/cliffy@^1.0.0-rc.3",
 		"zod": "npm:zod@^3.22.4"
+	},
+	"publish": {
+		"include": ["src", "CHANGELOG.md", "deno.json", "LICENSE", "main.ts", "README.md"]
 	}
 }
