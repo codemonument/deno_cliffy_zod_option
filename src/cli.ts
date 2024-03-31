@@ -6,7 +6,7 @@ import { zodType } from "./zodType.ts";
 export async function startCli(args: string[] = Deno.args) {
   const command = new Command()
     .name("cliffy-zod-option-demo")
-    .version("0.1.0")
+    .version("1.0.0")
     .description(
       "A package providing an extension for the cliffy cli framework to use zod for option validation",
     )

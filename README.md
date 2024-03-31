@@ -37,3 +37,9 @@ const command = new Command()
 
 await command.parse(args);
 ```
+
+## Release new version (for maintainers)
+
+1. Update the version in the `deno.json` file.
+2. Update the version in the `src/cli.ts` file.
+3.
