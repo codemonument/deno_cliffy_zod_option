@@ -1,5 +1,16 @@
 {
-  "tasks": {
-    "dev": "deno run --watch main.ts"
-  }
+	"name": "@codemonument/cliffy-zod-option",
+	"version": "0.1.0",
+	"exports": {
+		".": "./main.ts"
+	},
+	"tasks": {
+		"start": "deno run main.ts --zodString='Hello World!' --zodInt=42 --zodBaseColor=red",
+		"fail-number": "deno run main.ts --zodInt=42.5",
+		"fail-enum": "deno run main.ts --zodBaseColor=red",
+		"dev": "deno run --watch main.ts"
+	},
+	"imports": {
+		"zod": "npm:zod@^3.22.4"
+	}
 }
