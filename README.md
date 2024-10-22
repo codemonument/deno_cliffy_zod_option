@@ -1,6 +1,7 @@
 # Cliffy Extension: zodType
 
-This package provides a cliffy cli framework extension to validate an input option for the cli with zod.
+This package provides a custom options type for the cliffy cli framework.
+The new Option type zodType allows to validate a cli option input with zod.
 
 ## Usage Examples
 
