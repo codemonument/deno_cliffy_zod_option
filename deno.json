@@ -1,6 +1,6 @@
 {
 	"name": "@codemonument/cliffy-zod-option",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"exports": {
 		".": "./main.ts",
 		"./zodType": "./src/zodType.ts"
@@ -10,14 +10,11 @@
 		"fail-number": "deno run main.ts --zodInt=42.5",
 		"fail-enum": "deno run main.ts --zodBaseColor=red",
 		"dev": "deno run --watch main.ts",
-		"dry-publish": "deno publish --dry-run",
-		"publish": "deno publish"
+		"dry": "deno publish --dry-run",
+		"prepare": "deno task dry"
 	},
 	"imports": {
 		"@cliffy/command": "jsr:@cliffy/command@1.0.0-rc.7",
 		"zod": "npm:zod@~3.23.0"
-	},
-	"publish": {
-		"include": ["src", "CHANGELOG.md", "deno.json", "LICENSE", "main.ts", "README.md"]
 	}
 }

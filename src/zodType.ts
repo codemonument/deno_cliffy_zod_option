@@ -1,7 +1,4 @@
-import type {
-  ArgumentValue,
-  TypeOrTypeHandler,
-} from "@codemonument/cliffy/command";
+import type { ArgumentValue, TypeOrTypeHandler } from "@cliffy/command";
 import type { z, ZodType, ZodTypeDef } from "zod";
 
 /**

@@ -48,6 +48,10 @@ await command.parse(args);
 
 # Changelog
 
-## 2023-03-31 1.0.0
+## 1.0.1 - 2024-10-22
+
+- publish to jsr with provenance and upgrade to jsr @cliffy/command@1.0.0-rc.7
+
+## 1.0.0 - 2023-03-31
 
 - intial release, see README.md for usage examples
