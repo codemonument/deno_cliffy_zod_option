@@ -1,4 +1,4 @@
-import { Command } from "@codemonument/cliffy/command";
+import { Command } from "@cliffy/command";
 
 import { z } from "zod";
 import { zodType } from "./zodType.ts";
